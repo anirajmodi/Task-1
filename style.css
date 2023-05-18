@@ -1,0 +1,1038 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--violet);
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+section{
+    margin: 0;
+    padding: 1rem;
+}
+
+.home{
+   position: relative;
+   height: 100vh;
+}
+
+.box img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.box-1{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    text-align: center;
+}
+
+.box1,.box2{
+   display: block;
+   padding-left: 5rem;
+   margin-bottom: 2rem;
+   font-size: 3rem;
+   font-style: normal;
+   font-weight: 400;
+}
+
+.box2{
+    color: rgb(59, 100, 247);
+    font-weight: 100;
+}
+
+.box2 span{
+    color: rgb(87, 177, 246);
+}
+
+.img1{
+    position: absolute;
+    top: 0%;
+    right: -22%;
+}
+
+.img1 img{
+    object-fit: contain;
+    width: 200vh;
+    height: 100%;
+}
+
+.img2{
+    position: absolute;
+    bottom: 0%;
+    right: -35%;
+}
+
+.img2 img{
+    object-fit: contain;
+    width: 200vh;
+}
+
+.about{
+    display: flex;
+    column-gap: 3rem;
+}
+
+.about .part1{
+    display: block;
+}
+
+.about .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.about .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about .info1{
+    width: 100%;
+}
+
+.about .info1 p{
+    margin-top: 15rem;
+    font-size: 2rem;
+    color: rgb(0, 60, 255);
+}
+
+.about .part2{
+    position: relative;
+    margin-right: 15rem;
+}
+
+.about .part2 img{
+    height: 100vh;
+}
+
+.about .part2 .info2 .fig1{
+    position: absolute;
+    top: 2.5rem;
+    left: 30%;
+    width: 80%;
+    height: 100px;
+}
+
+.about .part2 .info2 .fig2{
+    position: absolute;
+    top: 28rem;
+    left: 15%;
+    width: 80%;
+    height: 100px;
+}
+
+.about .part2 .info2 .fig3{
+    position: absolute;
+    top: 55rem;
+    left: 25%;
+    width: 80%;
+    height: 100px;
+}
+
+.about .part2 .info2 .fig1
+,.about .part2 .info2 .fig2,
+.about .part2 .info2 .fig3{
+    display: flex;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    background: #53d1f8;
+    color: aliceblue;
+    column-gap: 10rem;
+}
+
+.about .part2 .info2 .fig1 .img
+,.about .part2 .info2 .fig2 .img,
+.about .part2 .info2 .fig3 .img{
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 10rem;
+}
+
+.about .part2 .info2 .fig1 .para
+,.about .part2 .info2 .fig2 .para,
+.about .part2 .info2 .fig3 .para{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .part2 .info2 .fig1 .img img
+,.about .part2 .info2 .fig2 .img img,
+.about .part2 .info2 .fig3 .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.landing{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.landing .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.landing .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.landing .info1{
+    width: 80%;
+}
+
+.landing .info1 p{
+    margin-top: 8rem;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.landing .part2{
+    display: block;
+    width: 100%;
+}
+
+.landing .part2 h1{
+    font-size: 3rem;
+}
+
+.landing .part2 .dig .div1 img{
+    position: absolute;
+    top: -40%;
+    right: -5%;
+    width: 750px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div2 img{
+    position: absolute;
+    top: 0;
+    right: -12%;
+    width: 1000px;
+    height: 750px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div3{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.landing .part2 .dig .div3 .box1
+{
+    position: absolute;
+    bottom: 5.4%;
+    right: 25%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+    
+}
+
+.landing .part2 .dig .div3 .box2{
+    position: absolute;
+    bottom: 5.4%;
+    right: 5%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+}
+
+
+.opp{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.opp .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.opp .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #53d1f8;
+}
+
+.opp .info1{
+    width: 80%;
+}
+
+.opp .info1 ul{
+    margin-top: 8rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
+
+.opp .part2{
+    height: 100vh;
+    width: 50%;
+    background-image: url('/image/OctaNet Web Development Task 1 (2).png');
+    background-size: cover; 
+    background-position: center;
+    clip-path: ellipse(30% 50% at 50% 50%);
+}
+
+.opp .part3{
+    position: absolute;
+    top: 19%;
+    right: 17%;
+    height: 70vh;
+    width: 25%;
+    background: white;
+    clip-path: ellipse(28% 49% at 50% 50%);
+}
+
+.last{
+    position: relative;
+    display: flex;
+    column-gap: 5rem;
+}
+
+.last .part1{
+    width: 50%;
+}
+
+.last .fig1{
+    position: absolute;
+    left: 2%;
+}
+
+.last .fig3{
+    position: absolute;
+    left: -6%;
+   
+}
+
+.last .fig2{
+    position: absolute;
+}
+
+.last .part2{
+    height: 100vh;
+    
+}
+
+.last .part2 img-1{
+    object-position: right top;
+    width: 20rem;
+    height: 10rem;
+    color: red;
+    
+}
+
+.last .part2 .box{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    font-size: 2rem;
+}
+
+.last .part2 .box img{
+    width: 3rem;
+    height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries  */
+@media only screen and (max-width:992px) {
+    html{
+        font-size: 55%;
+    }
+
+    .home{
+        position: relative;
+        
+    }
+ 
+    .box img{
+         width: 20rem;
+         height: 10rem;
+    }
+ 
+    .box-1{
+         display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        text-align: center;
+    }
+ 
+    .box1,.box2{
+        display: block;
+        padding-left: 5rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 400;
+    }
+ 
+    .box2{
+         color: rgb(59, 100, 247);
+        font-weight: 100;
+    }
+ 
+    .box2 span{
+         color: rgb(87, 177, 246);
+    }
+ 
+    .img1{
+         position: absolute;
+        top: 0%;
+         right: -22%;
+    }
+ 
+    .img1 img{
+         object-fit: contain;
+        width: 200vh;
+        height: 100%;
+    }
+ 
+    .img2{
+         position: absolute;
+        bottom: 0%;
+        right: -35%;
+    }
+ 
+    .img2 img{
+         object-fit: contain;
+        width: 200vh;
+    }
+
+.about .info1 p{
+    margin-top: 10rem;
+    font-size: 2rem;
+    color: rgb(0, 60, 255);
+}
+
+.about .part2 img{
+    height: 95vh;
+}
+
+.about .part2 .info2 .fig1{
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+    width: 80%;
+    height: 75px;
+}
+
+.about .part2 .info2 .fig2{
+    position: absolute;
+    top: 20rem;
+    left: 15%;
+    width: 80%;
+    height: 75px;
+}
+
+.about .part2 .info2 .fig3{
+    position: absolute;
+    top: 40rem;
+    left: 25%;
+    width: 80%;
+    height: 75px;
+}
+
+.landing .part2 h1{
+    font-size: 3rem;
+    margin-right: 30rem;
+    width: 30%;
+}
+
+.landing .part2 .dig .div1 img{
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div2 img{
+    position: absolute;
+    top: 0;
+    right: -16%;
+    width: 700px;
+    height: 450px;
+    object-fit: contain;
+}
+
+
+
+.landing .part2 .dig .div3 .box1
+{
+    position: absolute;
+    bottom: 10.1%;
+    right: 20%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+    
+}
+
+.landing .part2 .dig .div3 .box2{
+    position: absolute;
+    bottom: 10.1%;
+    right: 5%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+}
+
+
+.opp{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.opp .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.opp .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #53d1f8;
+}
+
+.opp .info1{
+    width: 80%;
+}
+
+.opp .info1 ul{
+    margin-top: 8rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
+
+.opp .part2{
+    height: 85vh;
+    width: 50%;
+    background-image: url('/image/OctaNet Web Development Task 1 (2).png');
+    background-size: cover; 
+    background-position: center;
+    clip-path: ellipse(30% 50% at 50% 50%);
+}
+
+.opp .part3{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    height: 70vh;
+    width: 25%;
+    background: white;
+    clip-path: ellipse(28% 50% at 50% 50%);
+}
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .home .box{
+        margin-left: 1rem;
+    }
+
+    .box-1{
+         display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        text-align: center;
+    }
+ 
+ 
+    .img1{
+         position: absolute;
+        top: 0%;
+         right: -30%;
+    }
+ 
+    .img2{
+         position: absolute;
+        bottom: 0%;
+        right: -45%;
+    }
+
+    .about .info{
+        font-size: 2rem;
+    }
+ 
+
+.about .info1 p{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: rgb(0, 60, 255);
+}
+
+.about .part2{
+    width: 50%;
+    margin-right: 5rem;
+}
+
+.about .part2 img{
+    height: 90vh;
+}
+
+.about .part2 .info2 .fig1{
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+    width: 80%;
+    height: 70px;
+}
+
+.about .part2 .info2 .fig2{
+    position: absolute;
+    top: 20rem;
+    left: 15%;
+    width: 80%;
+    height: 70px;
+}
+
+.about .part2 .info2 .fig3{
+    position: absolute;
+    top: 40rem;
+    left: 25%;
+    width: 80%;
+    height: 70px;
+}
+
+.landing .part2 h1{
+    font-size: 2.5rem;
+    margin-right: 30rem;
+    width: 30%;
+}
+
+.landing .part2 .dig .div1 img{
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div2 img{
+    position: absolute;
+    top: 0;
+    right: -21%;
+    width: 700px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div3 .box1
+{
+    position: absolute;
+    bottom: 10.1%;
+    right: 30%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+    
+}
+
+.landing .part2 .dig .div3 .box2{
+    position: absolute;
+    bottom: 10.1%;
+    right: 5%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+}
+
+
+.opp{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.opp .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.opp .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #53d1f8;
+}
+
+.opp .info1{
+    width: 80%;
+}
+
+.opp .info1 ul{
+    margin-top: 4rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
+
+.opp .part2{
+    margin-top: 2rem;
+    height: 58vh;
+    width: 50%;
+    background-image: url('/image/OctaNet Web Development Task 1 (2).png');
+    background-size: cover; 
+    background-position: center;
+    clip-path: ellipse(30% 50% at 50% 50%);
+}
+
+.opp .part3{
+    position: absolute;
+    top: 15%;
+    right: 7.5%;
+    height: 40vh;
+    width: 25%;
+    background: white;
+    clip-path: ellipse(28% 50% at 50% 50%);
+}
+
+.last .part1{
+    width: 70%;
+}
+
+.last .fig1{
+    position: absolute;
+    left: 2%;
+}
+
+.last .fig3{
+    position: absolute;
+    left: -6%;
+   
+}
+
+.last .fig2{
+    position: absolute;
+    top: 10%;
+}
+
+.last .part2{
+    height: 100vh;
+    padding-top: 10rem;
+    width: 50%;
+}
+
+.last .part2 .img-1{
+    object-position: right top;
+    width: 20rem;
+    height: 10rem;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.last .part2 .box{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    font-size: 2rem;
+}
+
+.last .part2 .box img{
+    width: 3rem;
+    height: 3rem;
+}
+
+}
+
+@media only screen and (max-width:600px) {
+    html{
+        font-size: 50%;
+        overflow-x: hidden;
+    }
+
+    .box-1{
+         display: inline-block;
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        text-align: center;
+        
+    }
+
+    .box-1 h1{
+        font-size: 2.5rem;
+    }
+ 
+    .home .img1 img{
+        height: 500px;
+        width: 600px;
+    }
+ 
+    .img1{
+         position: absolute;
+        top: -23%;
+         right: -40%;
+    }
+
+    .home .img2 img{
+        height: 500px;
+        width: 600px;
+    }
+ 
+    .img2{
+         position: absolute;
+        bottom: 20%;
+        right: -50%;
+    }
+
+    .about{
+        height: 100vh;
+        margin-top: -25rem;
+    }
+
+    .about .info{
+        font-size: 1.5rem;
+    }
+ 
+
+.about .info1 p{
+    margin-top: 8rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+    color: rgb(0, 60, 255);
+}
+
+.about .part2{
+    width: 50%;
+    margin-right: 0rem;
+}
+
+.about .part2 .img0{
+    margin-right: 5rem;
+}
+
+.about .part2 .info2 .fig1{
+    position: absolute;
+    top: 2rem;
+    left: 30%;
+    width: 50%;
+    height: 70px;
+}
+
+.about .part2 .info2 .fig2{
+    position: absolute;
+    top: 20rem;
+    left: 15%;
+    width: 80%;
+    height: 70px;
+}
+
+.about .part2 .info2 .fig3{
+    position: absolute;
+    top: 40rem;
+    left: 25%;
+    width: 80%;
+    height: 70px;
+}
+
+.landing .part2 h1{
+    font-size: 2.5rem;
+    margin-right: 30rem;
+    width: 30%;
+}
+
+.landing .part2 .dig .div1 img{
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div2 img{
+    position: absolute;
+    top: 0;
+    right: -21%;
+    width: 700px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.landing .part2 .dig .div3 .box1
+{
+    position: absolute;
+    bottom: 10.1%;
+    right: 30%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+    
+}
+
+.landing .part2 .dig .div3 .box2{
+    position: absolute;
+    bottom: 10.1%;
+    right: 5%;
+    width: 95px;
+    height: 70px;
+    background: #53d1f8;
+}
+
+
+.opp{
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.opp .part1 img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.opp .info{
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #53d1f8;
+}
+
+.opp .info1{
+    width: 80%;
+}
+
+.opp .info1 ul{
+    margin-top: 4rem;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
+
+.opp .part2{
+    margin-top: 2rem;
+    height: 58vh;
+    width: 50%;
+    background-image: url('/image/OctaNet Web Development Task 1 (2).png');
+    background-size: cover; 
+    background-position: center;
+    clip-path: ellipse(30% 50% at 50% 50%);
+}
+
+.opp .part3{
+    position: absolute;
+    top: 15%;
+    right: 7.5%;
+    height: 40vh;
+    width: 25%;
+    background: white;
+    clip-path: ellipse(28% 50% at 50% 50%);
+}
+
+.last .part1{
+    width: 70%;
+}
+
+.last .fig1{
+    position: absolute;
+    left: 2%;
+}
+
+.last .fig3{
+    position: absolute;
+    left: -6%;
+   
+}
+
+.last .fig2{
+    position: absolute;
+    top: 10%;
+}
+
+.last .part2{
+    height: 100vh;
+    padding-top: 10rem;
+    width: 50%;
+}
+
+.last .part2 .img-1{
+    object-position: right top;
+    width: 20rem;
+    height: 10rem;
+    margin-right: 0;
+    padding-right: 0;
+    
+}
+
+.last .part2 .box{
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+    font-size: 2rem;
+}
+
+.last .part2 .box img{
+    width: 3rem;
+    height: 3rem;
+}
+}
